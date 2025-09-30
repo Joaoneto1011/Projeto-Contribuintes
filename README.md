@@ -21,12 +21,15 @@ Ele permite cadastrar **pessoas físicas e jurídicas**, calcular seus impostos 
 
 ---
 
-## 🔹 Classes principais  
+## 🔹 Classes Principais
 
-- **Contribuintes (abstrata)** → Classe base com atributos comuns (nome e renda anual).  
-- **PessoaFisica** → Subclasse que representa pessoas físicas (com gastos com saúde).  
-- **PessoaJuridica** → Subclasse que representa pessoas jurídicas (com quantidade de funcionários).  
-- **ProgramaPrincipal** → Classe principal com a lógica de cadastro, cálculo e exibição dos resultados.  
+| Classe | Descrição |
+|--------|-----------|
+| `Contribuintes` | Classe **abstrata** base com atributos comuns `nome` e `rendaAnual`. Define o método abstrato `calculoImposto()`. |
+| `PessoaFisica` | Subclasse de `Contribuintes`. Representa pessoas físicas e adiciona o atributo `gastosComSaude`. Calcula o imposto de acordo com renda e despesas de saúde. |
+| `PessoaJuridica` | Subclasse de `Contribuintes`. Representa pessoas jurídicas e adiciona o atributo `quantidadeFuncionarios`. Calcula o imposto com base na quantidade de funcionários. |
+| `ProgramaPrincipal` | Classe principal que realiza o cadastro de contribuintes, coleta dados do usuário, calcula impostos e exibe o total de forma formatada. |
+
 
 ---
 
