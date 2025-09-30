@@ -1,6 +1,6 @@
 # 📊 Sistema de Cálculo de Impostos em Java  
 
-Este projeto é um sistema simples para cálculo de **impostos de contribuintes**, desenvolvido em **Java**, com foco em **programação orientada a objetos (POO)**.  
+Este projeto é um sistema para cálculo de **impostos de contribuintes**, desenvolvido em **Java**, com foco em **programação orientada a objetos (POO)**.  
 Ele permite cadastrar **pessoas físicas e jurídicas**, calcular seus impostos de acordo com regras específicas e exibir o total arrecadado.  
 
 ---
