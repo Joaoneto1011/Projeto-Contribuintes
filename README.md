@@ -48,21 +48,31 @@ Ele permite cadastrar **pessoas físicas e jurídicas**, calcular seus impostos 
 Insira o numero de contribuintes: 2
 
 Dados do 1 contribuinte:
+
 Pessoa Fisica ou Juridica(F/J)? F
+
 Nome: Maria
+
 Renda anual: 18000
+
 Gastos com Saude: 2000
 
 Dados do 2 contribuinte:
+
 Pessoa Fisica ou Juridica(F/J)? J
+
 Nome: SoftTech
+
 Renda anual: 400000
+
 Quantidade de funcionarios: 25
 
 ### Saída no Terminal:
 
 IMPOSTOS PAGOS:
+
 Maria: $ 2200.00
+
 SoftTech: $ 56000.00
 
 TOTAL DE IMPOSTOS: $ 58200.00
@@ -73,7 +83,9 @@ TOTAL DE IMPOSTOS: $ 58200.00
 **João Neto**  
 
 📧 Email: neto31510@gmail.com 
+
 📱 Telefone: (34) 99683-2626  
+
 🔗 LinkedIn: https://www.linkedin.com/in/joao-rodrigues-neto-855757293
 
 
